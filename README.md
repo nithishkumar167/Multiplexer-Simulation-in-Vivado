@@ -173,7 +173,7 @@ endmodule
 ![structure 4 1](https://github.com/user-attachments/assets/ad15dade-4575-4ac9-9e74-a0bbf94e6100)
 
 Testbench Implementation
-
+~~~
 // mux4_to_1_tb.v
 `timescale 1ns / 1ps
 
@@ -260,6 +260,7 @@ module mux4_to_1_tb;
                  $time, S1, S0, A, B, C, D, Y_gate, Y_dataflow, Y_behavioral, Y_structural);
     end
 endmodule
+~~~
 ![4 1(test bench)](https://github.com/user-attachments/assets/6f328217-8076-4d61-aaf3-990685c27c80)
 
 Sample Output
