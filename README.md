@@ -89,6 +89,7 @@ module mux4_to_1_gate (
     // OR gate to combine all AND gate outputs
     or (Y, A_and, B_and, C_and, D_and);
 endmodule
+
 ![4 1](https://github.com/user-attachments/assets/600bca98-47a6-432d-b206-bba8813903d5)
 
 4:1 MUX Data Flow Implementation
